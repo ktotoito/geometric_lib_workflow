@@ -1,6 +1,8 @@
 
-def area(a, h): 
-    return a * h / 2 
+def area(a, b, c): 
+    p = (a + b + c)/2
+    s = (p * (p - a) * (p - b) * (p - c)) ** 0.5
+    return s
 
 def perimeter(a, b, c): 
     return a + b + c 
