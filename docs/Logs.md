@@ -3,7 +3,24 @@
 ---
 
 ## Последние изменения
-##### Добавлено описание функций в файлах triangle.py и rectangle.py
+
+##### *Немного дополнена документация и добавлены тесты*
+
+```
+commit 71171a473cd5fa824ee43750d3f2f7d8fc9fd756 (HEAD -> new_features_465174_docs)
+Author: ktotoito <polina.bezdvernaya@gmail.com>
+Date:   Thu Dec 4 21:39:41 2025 +0400
+```
+
+##### *Добавлена документация*
+```
+commit 115605549b9d19bd3a1c68e901387234a43dd386
+Author: ktotoito <polina.bezdvernaya@gmail.com>
+Date:   Sat Oct 11 16:54:16 2025 +0400
+```
+
+##### *Добавлено описание функций в файлах triangle.py и rectangle.py*
+
 
 ```
 commit b370ae9412fcf29bcf3cdaa644e3ff327944623d (HEAD -> new_features_465174_docs)
