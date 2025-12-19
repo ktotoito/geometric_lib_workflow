@@ -12,7 +12,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  test_windows:
+  test_ubuntu:
     runs-on: ubuntu-latest
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
@@ -41,7 +41,7 @@ jobs:
     - name: Run Square Tests
       run: python -m unittest tests/tests_square.py
 
-  test_ubuntu:
+  test_windows:
     runs-on: windows-latest
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
