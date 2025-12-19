@@ -18,7 +18,7 @@ class GeometryTestCircleInvalidArea(unittest.TestCase):
         self.assertRaises(ValueError, area, 0)
 
     def test_circle_area_invalid_value_negative(self):
-        self.assertRaises(TypeError, area, -3)
+        self.assertRaises(ValueError, area, -3)
 
     def test_circle_area_invalid_type_empty(self):
         self.assertRaises(TypeError, area)
@@ -86,4 +86,3 @@ class GeometryTestCircleInvalidPerimeter(unittest.TestCase):
 
     def test_circle_perimeter_invalid_type_dict(self):
         self.assertRaises(TypeError, perimeter, {'1':1})
-

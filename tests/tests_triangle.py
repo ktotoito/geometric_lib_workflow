@@ -46,9 +46,6 @@ class GeometryTestTriangleInvalidArea(unittest.TestCase):
     def test_triangle_area_invalid_type_string(self):
         self.assertRaises(TypeError, area, '32', '43', '23')
 
-    def test_triangle_area_invalid_type_tuple(self):
-        self.assertRaises(TypeError, area, (2.3), (4.2), (4.3))
-
     def test_triangle_area_invalid_type_dict(self):
         self.assertRaises(TypeError, area, {'1': 1}, {'1': 3}, {'4': 1})
 
@@ -99,9 +96,6 @@ class GeometryTestTriangleInvalidPerimeter(unittest.TestCase):
 
     def test_triangle_perimeter_invalid_type_string(self):
         self.assertRaises(TypeError, perimeter, '32', '43', '23')
-
-    def test_triangle_perimeter_invalid_type_tuple(self):
-        self.assertRaises(TypeError, perimeter, (2.3), (4.2), (4.3))
 
     def test_triangle_perimeter_invalid_type_dict(self):
         self.assertRaises(TypeError, perimeter, {'1': 1}, {'1': 3}, {'4': 1})
