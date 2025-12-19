@@ -48,9 +48,3 @@ def perimeter(a, b, c):
 
     return a + b + c 
 
-from math import *
-
-a = sqrt(2) * 3
-b = sqrt(41)
-c = sqrt(81) / sqrt(82)
-print(a * b * c / 2)
